@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f5f7fa;
+  background-color: #58595d;
 }
 
 a {
@@ -11,7 +11,7 @@ a {
   display: flex;
   flex-direction: row-reverse;
   max-width: 1200px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -20,15 +20,16 @@ a {
 
 .main-content-section {
   padding: 10px 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
 }
 
 .main-content-title {
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  line-height: 27px;
-  color: #000;
-  margin: 20 0 20px 0;
+  /* line-height: 27px; */
+  color: #0d2f19;
 }
 
 /* About me section */
@@ -36,6 +37,7 @@ a {
   font-size: 32px;
 margin-top: 20px;
 margin-bottom: 20px;
+color: #0d2f19;
 }
 
 .about-me-section {
@@ -56,8 +58,8 @@ margin-bottom: 20px;
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  color: #022b08;
-  margin: 45px 0  25px 100px;
+  color: #0d2f19;
+  text-align: center;
 }
 
 .about-me-discription {
@@ -66,7 +68,7 @@ margin-bottom: 20px;
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
-  color: #595959;
+  color: #080808;
 }
 
 /* My prohect section */
@@ -171,7 +173,7 @@ margin-bottom: 20px;
 .my-speciality {
   font-style: normal;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 25px;
   color: #000;
   margin: 0 0 10px 0;
@@ -197,7 +199,7 @@ margin-bottom: 20px;
 }
 
 .sidebar-section {
-  background: #caf6d8;
+  background: #0d2f19;
   width: 470px;
 }
 .contacts-section,
@@ -212,24 +214,24 @@ margin-bottom: 20px;
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: rgb(5, 5, 5);
+  color: #ebf065;
   margin-bottom: 10px;
 }
 /* Contacts section*/
 .contacts-section-type {
   font-weight: bold;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 24px;
-  color: rgb(15, 15, 15);
+  color: #f7f6f6;
   margin-right: 7px;
 }
 .contacts-section-link {
   margin: 0;
-  color: #070707;
+  color: #f7f6f6;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 24px;
+  /* line-height: 24px; */
 }
 /* Tech & Soft skills section*/
 .tech-skills-list,
@@ -238,7 +240,7 @@ margin-bottom: 20px;
 }
 .tech-skills-item,
 .soft-skills-item {
-  color: #080808;
+  color: #f7f6f6;
 }
 .tech-skills-item-text,
 .soft-skills-item-text {
@@ -246,5 +248,5 @@ margin-bottom: 20px;
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
-  color: rgb(5, 5, 5);
+  color: #f7f6f6;
 }
